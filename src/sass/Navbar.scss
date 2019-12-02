@@ -1,0 +1,44 @@
+@import './common.scss';
+
+
+.navbarWrapper{
+    .logo-top{
+        h1{
+            color: $mainWhite;
+            font-size: 28px;
+            margin: 0;
+        }
+    }
+
+    .navbar-nav{
+        .nav-item {
+            .nav-link{
+                color: $mainWhite;
+            }
+        }
+    }
+}
+.myCartBtn{
+    button{
+        text-transform: capitalize;
+        border: 1px solid transparent;
+        background-color: #143967;
+        color: $mainWhite;
+        padding: 5px 15px;
+        border-radius: 3px;
+        transition: all .3s ease-in-out;
+
+        &:hover{
+            border-color: $mainWhite;
+        }
+
+        &:focus{
+            outline: 0;
+            box-shadow: none;
+        }
+
+        svg{
+            margin-right: 5px;
+        }
+    }
+}
