@@ -1,13 +1,18 @@
-/* 
-https://www.iconfinder.com/icons/1243689/call_phone_icon
-Creative Commons (Attribution 3.0 Unported);
-https://www.iconfinder.com/Makoto_msk */
+import productImageOne from './img/product-1.png'
+import productImageTwo from './img/product-2.png'
+import productImageThree from './img/product-3.png'
+import productImageFour from './img/product-4.png'
+import productImageFive from './img/product-5.png'
+import productImageSiz from './img/product-6.png'
+import productImageSeven from './img/product-7.png'
+import productImageEight from './img/product-8.png'
+
 
 export const storeProducts = [
   {
     id: 1,
     title: "Google Pixel - Black",
-    img: "img/product-1.png",
+    img: productImageOne,
     price: 10,
     company: "GOOGLE",
     info:
@@ -19,7 +24,7 @@ export const storeProducts = [
   {
     id: 2,
     title: "Samsung S7",
-    img: "img/product-2.png",
+    img: productImageTwo,
     price: 16,
     company: "SAMSUNG",
     info:
@@ -31,7 +36,7 @@ export const storeProducts = [
   {
     id: 3,
     title: "HTC 10 - Black",
-    img: "img/product-3.png",
+    img: productImageThree,
     price: 8,
     company: "htc",
     info:
@@ -43,7 +48,7 @@ export const storeProducts = [
   {
     id: 4,
     title: "HTC 10 - White",
-    img: "img/product-4.png",
+    img: productImageFour,
     price: 18,
     company: "htc",
     info:
@@ -55,7 +60,7 @@ export const storeProducts = [
   {
     id: 5,
     title: "HTC Desire 626s",
-    img: "img/product-5.png",
+    img: productImageFive,
     price: 24,
     company: "htc",
     info:
@@ -67,7 +72,7 @@ export const storeProducts = [
   {
     id: 6,
     title: "Vintage Iphone",
-    img: "img/product-6.png",
+    img: productImageSiz,
     price: 17,
     company: "apple",
     info:
@@ -79,7 +84,7 @@ export const storeProducts = [
   {
     id: 7,
     title: "Iphone 7",
-    img: "img/product-7.png",
+    img: productImageSeven,
     price: 30,
     company: "apple",
     info:
@@ -91,7 +96,7 @@ export const storeProducts = [
   {
     id: 8,
     title: "Smashed Iphone",
-    img: "img/product-8.png",
+    img: productImageEight,
     price: 2,
     company: "apple",
     info:
@@ -105,7 +110,7 @@ export const storeProducts = [
 export const detailProduct = {
   id: 1,
   title: "Google Pixel - Black",
-  img: "img/product-1.png",
+  img: productImageOne,
   price: 10,
   company: "google",
   info:
