@@ -24,7 +24,7 @@ ReactDOM.render(
             <App />
         </Router>
     </ProductProvider>,
-    
+
     document.getElementById('root')
 )
 
